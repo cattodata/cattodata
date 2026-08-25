@@ -305,16 +305,16 @@ against a development workspace before deployment to a live server.
 
 | | Certification | Exam | Level |
 |---|---|---|---|
-| <img src="assets/badges/expert.svg" height="30"/> | [Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/exams/az-305/) | AZ-305 | **Expert** |
-| <img src="assets/badges/associate.svg" height="30"/> | [Azure Databricks Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/implementing-data-engineering-solutions-using-azure-databricks/) | DP-750 | Associate |
-| <img src="assets/badges/associate.svg" height="30"/> | [Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/) | AI-102 | Associate |
-| <img src="assets/badges/associate.svg" height="30"/> | [Azure Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/) | DP-203 | Associate |
-| <img src="assets/badges/associate.svg" height="30"/> | [Fabric Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/) | DP-700 | Associate |
-| <img src="assets/badges/associate.svg" height="30"/> | [Fabric Analytics Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/) | DP-600 | Associate |
-| <img src="assets/badges/associate.svg" height="30"/> | [Azure Data Scientist Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/) | DP-100 | Associate |
-| <img src="assets/badges/fundamentals.svg" height="30"/> | [Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) | AI-900 | Fundamentals |
-| <img src="assets/badges/fundamentals.svg" height="30"/> | [Azure Data Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/) | DP-900 | Fundamentals |
-| <img src="assets/badges/fundamentals.svg" height="30"/> | [Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/) | AZ-900 | Fundamentals |
+| <img src="assets/badges/expert.png" height="30"/> | [Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/exams/az-305/) | AZ-305 | **Expert** |
+| <img src="assets/badges/associate.png" height="30"/> | [Azure Databricks Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/implementing-data-engineering-solutions-using-azure-databricks/) | DP-750 | Associate |
+| <img src="assets/badges/associate.png" height="30"/> | [Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/) | AI-102 | Associate |
+| <img src="assets/badges/associate.png" height="30"/> | [Azure Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/) | DP-203 | Associate |
+| <img src="assets/badges/associate.png" height="30"/> | [Fabric Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/) | DP-700 | Associate |
+| <img src="assets/badges/associate.png" height="30"/> | [Fabric Analytics Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/) | DP-600 | Associate |
+| <img src="assets/badges/associate.png" height="30"/> | [Azure Data Scientist Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/) | DP-100 | Associate |
+| <img src="assets/badges/fundamentals.png" height="30"/> | [Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) | AI-900 | Fundamentals |
+| <img src="assets/badges/fundamentals.png" height="30"/> | [Azure Data Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/) | DP-900 | Fundamentals |
+| <img src="assets/badges/fundamentals.png" height="30"/> | [Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/) | AZ-900 | Fundamentals |
 
 **Other** — Databricks Certified: Generative AI · Azure Databricks CSA Technical Training ·
 Anthropic Certified: Claude 101 · AWS Certified Cloud Practitioner ·
