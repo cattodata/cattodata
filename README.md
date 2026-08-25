@@ -46,10 +46,9 @@ and ABS census demographics · Council gets an **aggregate-only** movement and C
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/01-onboarding.png" height="340" alt="Onboarding"/>
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/02-walker.png" height="340" alt="Walker"/>
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/03-owner-ai-campaign.png" height="340" alt="Owner AI campaign"/>
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/04-council-mobile.png" height="340" alt="Council view"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/01-onboarding.png" height="380" alt="Onboarding"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/02-walker.png" height="380" alt="Walker"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/03-owner-ai-campaign.png" height="380" alt="Owner AI campaign"/>
 </p>
 
 `React 19` `TypeScript` `Supabase + RLS` `Leaflet / OpenStreetMap` `Claude` `Azure App Service` `Playwright`
