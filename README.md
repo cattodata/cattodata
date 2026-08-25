@@ -172,16 +172,56 @@ resume. Everything runs in the browser, and the reader edits the text before exp
 
 ### Also built — source private
 
-| Project | What it is |
-|---|---|
-| **Language-Learning Backend**<br/><sub>English Buddy</sub> | **Scores how well you pronounced it.** Speech is force-aligned to a reference, then prosody and phonemes scored separately. **14 test suites**, including an LLM output-quality gate and one proving audio paths cannot escape their directory. `FastAPI` `STT/TTS` |
-| **Cross-Lingual Mnemonic Engine**<br/><sub>MnemoAI</sub> | **Japanese vocabulary, remembered through Thai sound-alikes.** An LLM builds a memory sentence around the collision. Anonymous devices get **HMAC-signed tokens** rather than raw user IDs — added to close an IDOR the first design allowed. `FastAPI` `Postgres` `Redis` |
-| **Governed Text-to-SQL Data App**<br/><sub>CattoGadget</sub> | **Thai questions, governed SQL answers.** Sentiment and classification run as functions *inside* the query rather than as a separate model service, and writes go to Postgres over a service-principal OAuth token — no password in the code. `Databricks Apps` `Unity Catalog` `Lakebase` |
-| **AI Video Production Pipeline**<br/><sub>CattoCreator</sub> | **Article in, finished vertical video out.** Script, voiceover and a programmatic render, with two deployables sharing one Azure backend so the expensive stage runs once. `Monorepo` `TTS` `Azure` |
-| **Document Publishing Pipeline**<br/><sub>CattoBook</sub> | **Manuscript to shelf-ready EPUB and print PDF, in one command.** epubcheck-clean output, and the typesetting theme is defined once and reused so layout work does not repeat per document. `Node` `epubcheck` |
-| **Personality Synthesis App**<br/><sub>CattoAstro</sub> | **Four belief systems reconciled into one profile.** The hard part is making the model commit to a single coherent reading instead of hedging across all four. Rate-limited at the edge, on Azure Container Apps. `Next.js` `Redis` |
-| **Cross-Platform Mobile App**<br/><sub>CattoFlip</sub> | **One React codebase, both app stores, paid subscriptions.** A CI step greps the built bundle for secrets before release, so a leaked key fails the build rather than the review. **31 test suites, 4 CI workflows.** `Capacitor` `Supabase` `RevenueCat` |
-| **Conversation Summarisation Bot**<br/><sub>CattoDiscord</sub> | **Catch up on a long Thai thread in one read.** Local-first, so it runs against a dev workspace before it ever touches a live server. `Vercel Chat SDK` `AI SDK` |
+**Language-Learning Backend** · *English Buddy*
+A FastAPI backend for pronunciation practice. It force-aligns your speech against a reference
+recording, then scores prosody and phonemes separately so feedback points at what actually went
+wrong. **14 test suites**, including an LLM output-quality gate and one proving audio file paths
+cannot escape their directory.
+`Python` `FastAPI` `STT/TTS` `forced alignment`
+
+**Cross-Lingual Mnemonic Engine** · *MnemoAI*
+A vocabulary app for Thai speakers learning Japanese. A phonetic engine finds Thai words that
+sound like the Japanese target, then an LLM writes a memory sentence linking the two. Anonymous
+devices carry **HMAC-signed tokens** instead of passing raw user IDs — added specifically to close
+an IDOR the first design allowed.
+`Python` `FastAPI` `Postgres` `Redis` `Docker`
+
+**Governed Text-to-SQL Data App** · *CattoGadget*
+A Databricks App where shop owners ask questions in Thai and get answers from governed tables.
+Sentiment and classification run as functions *inside* the SQL query rather than as a separate
+model service, and writes go to Postgres over a service-principal OAuth token — so no password
+exists anywhere in the code.
+`Python` `Databricks Apps` `Unity Catalog` `Lakebase` `Genie`
+
+**Cross-Platform Mobile App** · *CattoFlip*
+An iOS and Android app from one React codebase, with in-app subscriptions. A CI step greps the
+built bundle for secrets before release, so a leaked key fails the build instead of reaching
+review. **31 test suites across 4 CI workflows.**
+`React` `Capacitor` `Supabase` `RevenueCat`
+
+**Personality Synthesis App** · *CattoAstro*
+A Thai behavioural-profile app that reads four different systems — Western astrology, BaZi,
+numerology and Vedic charts — and has an LLM reconcile them into one description. The hard part
+is making the model commit to a single coherent reading instead of hedging across all four.
+Rate-limited at the edge, running on Azure Container Apps.
+`Next.js` `Redis` `Azure Container Apps`
+
+**AI Video Production Pipeline** · *CattoCreator*
+Paste a news article and get a finished vertical video: script, voiceover and a programmatic
+render. Two deployables share one Azure backend so the expensive generation stage runs once
+rather than per client.
+`Monorepo` `TTS` `Azure`
+
+**Document Publishing Pipeline** · *CattoBook*
+Turns a Markdown or Word manuscript into an epubcheck-clean EPUB and a print-ready A5 PDF in a
+single command. The typesetting theme is defined once and reused, so layout work does not repeat
+for every document.
+`Node` `EPUB` `epubcheck`
+
+**Conversation Summarisation Bot** · *CattoDiscord*
+A Discord bot that condenses a long Thai conversation into a recap you can catch up from.
+Local-first, so it runs against a development workspace before it ever touches a live server.
+`TypeScript` `Vercel Chat SDK` `AI SDK`
 
 > Most of these are live services with real users, so their repositories stay private.
 > **[CatWalk](https://github.com/cattodata/catwalk) is fully open** — architecture, eight technical
