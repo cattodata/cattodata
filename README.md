@@ -22,13 +22,13 @@ systems myself: production RAG, multi-agent systems, and lakehouse platforms.
 ---
 
 # 🏆 Civic-Tech AI Copilot
-### **CatWalk** · built on Claude
+### **CatWalk**
 
 **★ 1st Place Winner — Chatswood "AI for Real-World Impact" Hackathon 2026**
 Willoughby City Council × GEEQ
 
 <a href="https://github.com/cattodata/catwalk">
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/00-intro.png" width="100%" alt="CatWalk — get your food while getting fit"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/00-intro.png" width="80%" alt="CatWalk — get your food while getting fit"/>
 </a>
 
 One app, three roles on the same data. Residents earn rewards for **GPS-geofenced** walks · shop
@@ -41,15 +41,15 @@ and ABS census demographics · Council gets an **aggregate-only** movement and C
 [![Read the case study](https://img.shields.io/badge/📖_Read_the_case_study-2e6bb3?style=for-the-badge)](https://github.com/cattodata/catwalk)
 [![Watch the demo](https://img.shields.io/badge/🎬_Watch_the_demo-1f7a5c?style=for-the-badge)](https://www.facebook.com/reel/1636653097607330)
 
-<img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/catwalk-demo.gif" width="720" alt="CatWalk live demo — pick a shop, choose a travel mode, start the walk"/>
+<img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/catwalk-demo.gif" width="620" alt="CatWalk live demo — pick a shop, choose a travel mode, start the walk"/>
 
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/01-onboarding.png" width="22%" alt="Onboarding"/>
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/02-walker.png" width="22%" alt="Walker"/>
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/03-owner-ai-campaign.png" width="22%" alt="Owner AI campaign"/>
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/04-council-mobile.png" width="22%" alt="Council view"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/01-onboarding.png" height="340" alt="Onboarding"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/02-walker.png" height="340" alt="Walker"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/03-owner-ai-campaign.png" height="340" alt="Owner AI campaign"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/04-council-mobile.png" height="340" alt="Council view"/>
 </p>
 
 `React 19` `TypeScript` `Supabase + RLS` `Leaflet / OpenStreetMap` `Claude` `Azure App Service` `Playwright`
@@ -146,6 +146,7 @@ formatting, exporting ready-to-read EPUBs. Built for long-document context, not 
 
 ### 🍜 What-To-Eat Picker
 <sub>**[CattoWhatEat](https://cattodata.com/cattolotto/cattowhateat/)** · cattodata.com · Live</sub>
+<img src="assets/cattowhateat.jpg" width="100%"/>
 
 Solves the daily "what should I eat" deadlock — pick a cuisine, hit the slot
 machine, get a suggestion. Single-file vanilla HTML/CSS/JS with three switchable themes and no
@@ -175,14 +176,14 @@ before export. Fully client-side, nothing leaves the device.
 | Project | What it is |
 |---|---|
 | **Agentic Analytics & Multi-Agent Workspace** | Multi-agent analytics on Databricks Apps — FastAPI · Lakebase/Postgres · OAuth on-behalf-of · Genie text-to-SQL · conversation memory · tool-call transparency · governed admin |
-| **English Buddy** | FastAPI language-learning backend — STT, forced alignment, prosody + pronunciation scoring, TTS. ~11.5k lines, **14 test suites** incl. an LLM output-quality eval gate and a path-traversal security test |
-| **MnemoAI** | Layered FastAPI service — phonetic engine, Claude Haiku with OpenAI fallback, image generation, spaced repetition. **HMAC-signed device tokens** added to close an IDOR. Postgres · Redis · Docker |
-| **CattoGadget** | Databricks App — Thai natural language → SQL via Genie, LLM classification *inside* SQL, writes to Lakebase. No passwords in code: service-principal OAuth, Unity Catalog permissions |
-| **CattoCreator** | Paste news → rendered vertical MP4: script generation, cloned-voice TTS, programmatic render. Monorepo on Azure |
-| **CattoBook** | Document pipeline: Markdown/Word → epubcheck-validated EPUB + print-ready A5 PDF under a reusable theme, in one command |
-| **CattoAstro** | LLM behavioural-profile app. Production on **Azure Container Apps** (Singapore), Redis rate limiting |
-| **CattoFlip** | iOS + Android — Capacitor · React · Supabase · RevenueCat subscriptions. 154 commits, 31 test suites, 4 CI workflows |
-| **CattoDiscord** | Thai conversation summarisation bot. Vercel Chat SDK · AI SDK |
+| **Language-Learning Backend**<br/><sub>English Buddy</sub> | FastAPI language-learning backend — STT, forced alignment, prosody + pronunciation scoring, TTS. ~11.5k lines, **14 test suites** incl. an LLM output-quality eval gate and a path-traversal security test |
+| **Cross-Lingual Mnemonic Engine**<br/><sub>MnemoAI</sub> | Layered FastAPI service — phonetic engine, Claude Haiku with OpenAI fallback, image generation, spaced repetition. **HMAC-signed device tokens** added to close an IDOR. Postgres · Redis · Docker |
+| **Governed Text-to-SQL Data App**<br/><sub>CattoGadget</sub> | Databricks App — Thai natural language → SQL via Genie, LLM classification *inside* SQL, writes to Lakebase. No passwords in code: service-principal OAuth, Unity Catalog permissions |
+| **AI Video Production Pipeline**<br/><sub>CattoCreator</sub> | Paste news → rendered vertical MP4: script generation, cloned-voice TTS, programmatic render. Monorepo on Azure |
+| **Document Publishing Pipeline**<br/><sub>CattoBook</sub> | Document pipeline: Markdown/Word → epubcheck-validated EPUB + print-ready A5 PDF under a reusable theme, in one command |
+| **Personality Synthesis App**<br/><sub>CattoAstro</sub> | LLM behavioural-profile app. Production on **Azure Container Apps** (Singapore), Redis rate limiting |
+| **Cross-Platform Mobile App**<br/><sub>CattoFlip</sub> | iOS + Android — Capacitor · React · Supabase · RevenueCat subscriptions. 154 commits, 31 test suites, 4 CI workflows |
+| **Conversation Summarisation Bot**<br/><sub>CattoDiscord</sub> | Thai conversation summarisation bot. Vercel Chat SDK · AI SDK |
 
 > Most of these are live services with real users, so their repositories stay private.
 > **[CatWalk](https://github.com/cattodata/catwalk) is fully open** — architecture, eight technical
@@ -233,7 +234,7 @@ before export. Fully client-side, nothing leaves the device.
 **Fortune 500 energy** — Analytics Data Design Lead → ML Engineer · cloud data-warehouse migration, onsite year in Houston 🇺🇸
 **Tohoku University 🇯🇵** — Special Researcher (JASSO residency) · NLP research, 6 peer-reviewed publications
 
-**Education** — M.Sc. Data Science, University College Dublin 🇮🇪 (HRH Princess Maha Chakri Sirindhorn royal scholarship) · M.Sc. NLP & Information Retrieval, KMITL 🇹🇭
+**Education** — M.Sc. Data Science, University College Dublin 🇮🇪 (HRH Princess Maha Chakri Sirindhorn royal scholarship) · M.Sc. Natural Language Processing & Information Retrieval 🇹🇭
 
 ---
 
@@ -241,18 +242,18 @@ before export. Fully client-side, nothing leaves the device.
 
 **Microsoft Certified Trainer (MCT)** — 2024 to present · authorised to deliver official Azure & AI training and curriculum
 
-| Certification | Exam | Level |
-|---|---|---|
-| [Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/exams/az-305/) | AZ-305 | **Expert** |
-| [Azure Databricks Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/implementing-data-engineering-solutions-using-azure-databricks/) | DP-750 | Associate |
-| [Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/) | AI-102 | Associate |
-| [Azure Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/) | DP-203 | Associate |
-| [Fabric Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/) | DP-700 | Associate |
-| [Fabric Analytics Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/) | DP-600 | Associate |
-| [Azure Data Scientist Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/) | DP-100 | Associate |
-| [Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) | AI-900 | Fundamentals |
-| [Azure Data Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/) | DP-900 | Fundamentals |
-| [Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/) | AZ-900 | Fundamentals |
+| | Certification | Exam | Level |
+|---|---|---|---|
+| <img src="assets/badges/expert.svg" height="30"/> | [Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/exams/az-305/) | AZ-305 | **Expert** |
+| <img src="assets/badges/associate.svg" height="30"/> | [Azure Databricks Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/implementing-data-engineering-solutions-using-azure-databricks/) | DP-750 | Associate |
+| <img src="assets/badges/associate.svg" height="30"/> | [Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/) | AI-102 | Associate |
+| <img src="assets/badges/associate.svg" height="30"/> | [Azure Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/) | DP-203 | Associate |
+| <img src="assets/badges/associate.svg" height="30"/> | [Fabric Data Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/) | DP-700 | Associate |
+| <img src="assets/badges/associate.svg" height="30"/> | [Fabric Analytics Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/) | DP-600 | Associate |
+| <img src="assets/badges/associate.svg" height="30"/> | [Azure Data Scientist Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/) | DP-100 | Associate |
+| <img src="assets/badges/fundamentals.svg" height="30"/> | [Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) | AI-900 | Fundamentals |
+| <img src="assets/badges/fundamentals.svg" height="30"/> | [Azure Data Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/) | DP-900 | Fundamentals |
+| <img src="assets/badges/fundamentals.svg" height="30"/> | [Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/) | AZ-900 | Fundamentals |
 
 **Other** — Databricks Certified: Generative AI · Azure Databricks CSA Technical Training ·
 Anthropic Certified: Claude 101 · AWS Certified Cloud Practitioner ·
