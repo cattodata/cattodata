@@ -213,11 +213,13 @@ model service, and writes go to Postgres over a service-principal OAuth token �
 exists anywhere in the code.
 `Python` `Databricks Apps` `Unity Catalog` `Lakebase` `Genie`
 
-**Cross-Platform Mobile App** · *CattoFlip*
-An iOS and Android app from one React codebase, with in-app subscriptions. A CI step greps the
-built bundle for secrets before release, so a leaked key fails the build instead of reaching
-review. **31 test suites across 4 CI workflows.**
-`React` `Capacitor` `Supabase` `RevenueCat`
+**AI Knowledge Feed** · *CattoFlip*
+A mobile app that turns doom-scrolling into something you keep. Articles become full-screen flip
+cards an LLM has summarised, a voice reads them aloud, and spaced repetition brings the ones you
+cared about back later. Ships to iOS and Android from one React codebase with in-app
+subscriptions, and a CI step greps the built bundle for secrets so a leaked key fails the build
+rather than reaching review. **31 test suites across 4 CI workflows.**
+`React` `Capacitor` `Supabase` `RevenueCat` `Claude API`
 
 **Personality Synthesis App** · *CattoAstro*
 A Thai behavioural-profile app that reads four different systems — Western astrology, BaZi,
