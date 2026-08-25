@@ -63,6 +63,19 @@ Independent AI products I design, build and ship — live on **[cattodata.com](h
 <tr>
 <td width="50%" valign="top">
 
+### 🏆 Civic-Tech AI Copilot
+<sub>**[CatWalk](https://github.com/cattodata/catwalk)** · 1st Place, Chatswood Hackathon 2026 · Live</sub>
+<img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/00-intro.png" width="100%"/>
+
+**A walking-rewards app for a city council.** Residents earn rewards for GPS-verified walks to
+local shops, shop owners get AI marketing campaigns in three languages, and Council sees an
+aggregate-only movement and CO₂ dashboard. **The only project here with its source open.**
+
+`React 19` `TypeScript` `Supabase + RLS` `Leaflet` `Claude` `Azure`
+
+</td>
+<td width="50%" valign="top">
+
 ### 💰 Privacy-First Finance Analytics
 <sub>**[CattoExpense](https://cattodata.com/cattoexpense)** · cattodata.com · Live</sub>
 <img src="assets/cattoexpense.jpg" width="100%"/>
@@ -74,6 +87,8 @@ exports back to Excel and PDF.
 `Client-side` `OCR` `Charts` `AI coaching`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🚀 Migration & Relocation Intelligence
@@ -87,8 +102,6 @@ every number so the answer can be checked.
 `Next.js` `Maps` `Modelling`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🎓 Data & AI Learning Platform
@@ -101,6 +114,8 @@ tooling and community on one Postgres schema. The largest codebase here, at 182 
 `Next.js` `Prisma` `Supabase` `NextAuth` `Tiptap` `OpenAI` `Cloudflare Workers` `Playwright`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### ✈️ AI Trip Orchestrator
@@ -114,8 +129,6 @@ dated time slots with weather, maps and costs. The most heavily tested project h
 `LLM` `Itinerary` `Maps` `Export`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🎁 Prize Draw & Lottery Tool
@@ -128,6 +141,8 @@ Runs entirely in the page, with no account.
 `HTML` `JS` `Client-side`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🌐 AI Book Translator (EN↔TH)
@@ -140,8 +155,6 @@ and rebuilds the EPUB with its formatting intact, rather than emitting loose tra
 `LLM translation` `EPUB` `EN↔TH`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🍜 What-To-Eat Picker
@@ -154,6 +167,8 @@ argument. Three switchable themes; a sibling of CattoLotto.
 `Vanilla JS` `Zero dependencies` `Single file`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📖 Thai PDF → EPUB Converter
@@ -165,6 +180,11 @@ batched to cut token cost, repeated terms are held in a glossary, and a half-fin
 resume. Everything runs in the browser, and the reader edits the text before export.
 
 `OCR` `PDF.js` `PWA` `Client-side`
+
+</td>
+<td width="50%" valign="top">
+
+
 
 </td>
 </tr>
