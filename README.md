@@ -21,10 +21,11 @@ systems myself: production RAG, multi-agent systems, and lakehouse platforms.
 
 ---
 
-# 🏆 CatWalk — Civic-Tech AI Copilot
+# 🏆 Civic-Tech AI Copilot
+### **CatWalk** · built on Claude
 
-### ★ 1st Place Winner · Chatswood "AI for Real-World Impact" Hackathon 2026
-**Willoughby City Council × GEEQ**
+**★ 1st Place Winner — Chatswood "AI for Real-World Impact" Hackathon 2026**
+Willoughby City Council × GEEQ
 
 <a href="https://github.com/cattodata/catwalk">
   <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/00-intro.png" width="100%" alt="CatWalk — get your food while getting fit"/>
@@ -63,10 +64,11 @@ Independent AI products I design, build and ship — live on **[cattodata.com](h
 <tr>
 <td width="50%" valign="top">
 
-### 💰 [CattoExpense](https://cattodata.com/cattoexpense) · Live
+### 💰 Privacy-First Finance Analytics
+<sub>**[CattoExpense](https://cattodata.com/cattoexpense)** · cattodata.com · Live</sub>
 <img src="assets/cattoexpense.jpg" width="100%"/>
 
-**Privacy-First Finance Analytics.** Upload an **Australian bank statement** (PDF/CSV) and get
+Upload an **Australian bank statement** (PDF/CSV) and get
 categorisation, spending charts, month-over-month comparison and AI coaching. In-browser OCR —
 financial data never leaves the device.
 
@@ -75,10 +77,11 @@ financial data never leaves the device.
 </td>
 <td width="50%" valign="top">
 
-### 🚀 [CattoGo](https://cattodata.com/cattogo) · Live
+### 🚀 Migration & Relocation Intelligence
+<sub>**[CattoGo](https://cattodata.com/cattogo)** · cattodata.com · Live</sub>
 <img src="assets/cattogo.jpg" width="100%"/>
 
-**Migration & Relocation Intelligence.** 16-country comparison, salary/tax/cost-of-living
+16-country comparison, salary/tax/cost-of-living
 modelling, points-based visa scoring and an **Australia life simulator**. Every figure sourced
 from ATO, ABS, OECD and official visa pages.
 
@@ -89,10 +92,11 @@ from ATO, ABS, OECD and official visa pages.
 <tr>
 <td width="50%" valign="top">
 
-### 🎓 [CattoLearn](https://cattodata.com) · Live
+### 🎓 Data & AI Learning Platform
+<sub>**[CattoLearn](https://cattodata.com)** · cattodata.com · Live</sub>
 <img src="assets/cattolearn.jpg" width="100%"/>
 
-**Data & AI Learning Platform.** Full-stack self-paced platform — courses, lessons, quizzes,
+Full-stack self-paced platform — courses, lessons, quizzes,
 progress tracking, certificates, blog, community and content infrastructure.
 
 `Next.js` `Prisma` `Supabase` `NextAuth` `Tiptap` `OpenAI` `Cloudflare Workers` `Playwright`
@@ -100,10 +104,11 @@ progress tracking, certificates, blog, community and content infrastructure.
 </td>
 <td width="50%" valign="top">
 
-### ✈️ [CattoTravel](https://cattodata.com/cattotravel) · Live
+### ✈️ AI Trip Orchestrator
+<sub>**[CattoTravel](https://cattodata.com/cattotravel)** · cattodata.com · Live</sub>
 <img src="assets/cattotravel.jpg" width="100%"/>
 
-**AI Trip Orchestrator.** Paste a trip in any format (text, PDF, Excel, Word) → AI builds a
+Paste a trip in any format (text, PDF, Excel, Word) → AI builds a
 day-by-day itinerary with weather, maps, cost breakdown and export. **39 test suites.**
 
 `LLM` `Itinerary` `Maps` `Export`
@@ -113,10 +118,11 @@ day-by-day itinerary with weather, maps, cost breakdown and export. **39 test su
 <tr>
 <td width="50%" valign="top">
 
-### 🎁 [CattoLotto](https://cattodata.com/cattolotto) · Live
+### 🎁 Prize Draw & Lottery Tool
+<sub>**[CattoLotto](https://cattodata.com/cattolotto)** · cattodata.com · Live</sub>
 <img src="assets/cattolotto.jpg" width="100%"/>
 
-**Prize Draw & Lottery Tool.** Fast number checking and prize-draw utilities. No account, no data
+Fast number checking and prize-draw utilities. No account, no data
 collection, entirely in the browser.
 
 `HTML` `JS` `Client-side`
@@ -124,10 +130,11 @@ collection, entirely in the browser.
 </td>
 <td width="50%" valign="top">
 
-### 🌐 [CattoTranslate](https://cattodata.com/cattotranslate) · Live
+### 🌐 AI Book Translator (EN↔TH)
+<sub>**[CattoTranslate](https://cattodata.com/cattotranslate)** · cattodata.com · Live</sub>
 <img src="assets/cattotranslate.jpg" width="100%"/>
 
-**AI Book Translator (EN↔TH).** Translates entire PDF/EPUB books while preserving layout and
+Translates entire PDF/EPUB books while preserving layout and
 formatting, exporting ready-to-read EPUBs. Built for long-document context, not chunk-by-chunk.
 
 `LLM translation` `EPUB` `EN↔TH`
@@ -137,9 +144,10 @@ formatting, exporting ready-to-read EPUBs. Built for long-document context, not 
 <tr>
 <td width="50%" valign="top">
 
-### 🍜 [CattoWhatEat](https://cattodata.com/cattolotto/cattowhateat/) · Live
+### 🍜 What-To-Eat Picker
+<sub>**[CattoWhatEat](https://cattodata.com/cattolotto/cattowhateat/)** · cattodata.com · Live</sub>
 
-**What To Eat.** Solves the daily "what should I eat" deadlock — pick a cuisine, hit the slot
+Solves the daily "what should I eat" deadlock — pick a cuisine, hit the slot
 machine, get a suggestion. Single-file vanilla HTML/CSS/JS with three switchable themes and no
 build step. A sibling of CattoLotto.
 
@@ -148,10 +156,11 @@ build step. A sibling of CattoLotto.
 </td>
 <td width="50%" valign="top">
 
-### 📖 [CattoEPUB](https://cattodata.com/cattoepub) · Live
+### 📖 Thai PDF → EPUB Converter
+<sub>**[CattoEPUB](https://cattodata.com/cattoepub)** · cattodata.com · Live</sub>
 <img src="assets/cattoepub.jpg" width="100%"/>
 
-**Thai PDF → EPUB Converter.** Turns complex Thai PDFs — including scans — into clean, readable
+Turns complex Thai PDFs — including scans — into clean, readable
 EPUBs. Token-saving OCR strategy, glossary, resume/recovery for long documents, and human review
 before export. Fully client-side, nothing leaves the device.
 
