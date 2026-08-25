@@ -27,9 +27,11 @@ hands-on delivery of production RAG, multi-agent systems, and enterprise data pl
 **★ 1st Place Winner — Chatswood "AI for Real-World Impact" Hackathon 2026**
 Willoughby City Council × GEEQ
 
-<a href="https://github.com/cattodata/catwalk">
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/00-intro.png" width="80%" alt="CatWalk — get your food while getting fit"/>
-</a>
+<p align="center">
+  <a href="https://github.com/cattodata/catwalk">
+    <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/00-intro.png" width="80%" alt="CatWalk — get your food while getting fit"/>
+  </a>
+</p>
 
 One app, three roles on the same data. Residents earn rewards for **GPS-geofenced** walks · shop
 owners get **AI marketing campaigns in EN / 中文 / 한국어** generated from live weather, local events
@@ -51,7 +53,7 @@ and ABS census demographics · Council gets an **aggregate-only** movement and C
   <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/03-owner-ai-campaign.png" height="380" alt="Owner AI campaign"/>
 </p>
 
-`React 19` `TypeScript` `Supabase + RLS` `Leaflet / OpenStreetMap` `Claude` `Azure App Service` `Playwright`
+`React 19` `TypeScript` `Supabase + RLS` `Leaflet / OpenStreetMap` `Azure OpenAI` `Azure App Service` `Playwright`
 
 ---
 
@@ -65,13 +67,13 @@ Independent AI products and applications I design and deliver, live on **[cattod
 
 ### 🏆 Civic-Tech AI Copilot
 <sub>**[CatWalk](https://github.com/cattodata/catwalk)** · 1st Place, Chatswood Hackathon 2026 · Live</sub>
-<img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/00-intro.png" width="100%"/>
+<img src="assets/catwalk-live.jpg" width="100%"/>
 
 A civic-engagement app with three roles on shared data: residents earn rewards for GPS-verified
 walks to local shops, shop owners receive AI-generated marketing campaigns in three languages, and
 Council views an aggregate-only movement and CO₂ dashboard. Source is public.
 
-`React 19` `TypeScript` `Supabase + RLS` `Leaflet` `Claude` `Azure`
+`React 19` `TypeScript` `Supabase + RLS` `Leaflet` `Azure OpenAI` `Azure App Service`
 
 </td>
 <td width="50%" valign="top">
