@@ -49,6 +49,32 @@ Independent AI products I design, build and ship — live on **[cattodata.com](h
 <tr>
 <td width="50%" valign="top">
 
+### 💰 [CattoExpense](https://cattodata.com/cattoexpense) · Live
+<img src="assets/cattoexpense.jpg" width="100%"/>
+
+**Privacy-First Finance Analytics.** Upload an **Australian bank statement** (PDF/CSV) and get
+categorisation, spending charts, month-over-month comparison and AI coaching. In-browser OCR —
+financial data never leaves the device.
+
+`Client-side` `OCR` `Charts` `AI coaching`
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 [CattoGo](https://cattodata.com/cattogo) · Live
+<img src="assets/cattogo.jpg" width="100%"/>
+
+**Migration & Relocation Intelligence.** 16-country comparison, salary/tax/cost-of-living
+modelling, points-based visa scoring and an **Australia life simulator**. Every figure sourced
+from ATO, ABS, OECD and official visa pages.
+
+`Next.js` `Maps` `Modelling`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🎓 [CattoLearn](https://cattodata.com) · Live
 <img src="assets/cattolearn.jpg" width="100%"/>
 
@@ -60,6 +86,19 @@ progress tracking, certificates, blog, community and content infrastructure.
 </td>
 <td width="50%" valign="top">
 
+### ✈️ [CattoTravel](https://cattodata.com/cattotravel) · Live
+<img src="assets/cattotravel.jpg" width="100%"/>
+
+**AI Trip Orchestrator.** Paste a trip in any format (text, PDF, Excel, Word) → AI builds a
+day-by-day itinerary with weather, maps, cost breakdown and export. **39 test suites.**
+
+`LLM` `Itinerary` `Maps` `Export`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 📖 [CattoEPUB](https://cattodata.com/cattoepub) · Live
 <img src="assets/cattoepub.jpg" width="100%"/>
 
@@ -69,8 +108,6 @@ Typhoon OCR — token-saving OCR, glossary, resume/recovery. Fully client-side, 
 `Typhoon OCR` `PDF.js` `PWA` `Client-side`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🌐 [CattoTranslate](https://cattodata.com/cattotranslate) · Live
@@ -82,42 +119,6 @@ formatting, exporting ready-to-read EPUBs. Built for long-document context, not 
 `LLM translation` `EPUB` `EN↔TH`
 
 </td>
-<td width="50%" valign="top">
-
-### 🚀 [CattoGo](https://cattodata.com/cattogo) · Live
-<img src="assets/cattogo.jpg" width="100%"/>
-
-**Migration & Relocation Intelligence.** 16-country comparison, salary/tax/cost-of-living
-modelling, points-based visa scoring, Australia life simulator, maps, PDF/Excel export.
-Every figure sourced from ATO, ABS, OECD and official visa pages.
-
-`Next.js` `Maps` `Modelling`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ✈️ [CattoTravel](https://cattodata.com/cattotravel) · Live
-<img src="assets/cattotravel.jpg" width="100%"/>
-
-**AI Trip Orchestrator.** Paste a trip in any format (text, PDF, Excel, Word) → AI builds a
-day-by-day itinerary with weather, maps, cost breakdown and export. **39 test suites.**
-
-`LLM` `Itinerary` `Maps` `Export`
-
-</td>
-<td width="50%" valign="top">
-
-### 💰 [CattoExpense](https://cattodata.com/cattoexpense) · Live
-<img src="assets/cattoexpense.jpg" width="100%"/>
-
-**Privacy-First Finance Analytics.** Bank-statement tool with in-browser OCR, categorisation,
-spending charts, month-over-month comparison and AI coaching. Financial data never leaves the browser.
-
-`Client-side` `OCR` `Charts` `AI coaching`
-
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
@@ -125,7 +126,7 @@ spending charts, month-over-month comparison and AI coaching. Financial data nev
 ### 🎁 [CattoLotto](https://cattodata.com/cattolotto) · Live
 <img src="assets/cattolotto.jpg" width="100%"/>
 
-**Thai Lottery Web Tool.** Fast number checking and prize-draw utilities. No account, no data
+**Prize Draw & Lottery Tool.** Fast number checking and prize-draw utilities. No account, no data
 collection, entirely in the browser.
 
 `HTML` `JS` `Client-side`
