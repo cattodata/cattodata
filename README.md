@@ -174,7 +174,6 @@ resume. Everything runs in the browser, and the reader edits the text before exp
 
 | Project | What it is |
 |---|---|
-| **Agentic Analytics & Multi-Agent Workspace** | **Ask data questions in plain language, get auditable answers.** The agent shows which tools it called, and every query runs under the asking user's own identity rather than a shared service account. `FastAPI` `Databricks Apps` `Lakebase` `OAuth OBO` `Genie` |
 | **Language-Learning Backend**<br/><sub>English Buddy</sub> | **Scores how well you pronounced it.** Speech is force-aligned to a reference, then prosody and phonemes scored separately. **14 test suites**, including an LLM output-quality gate and one proving audio paths cannot escape their directory. `FastAPI` `STT/TTS` |
 | **Cross-Lingual Mnemonic Engine**<br/><sub>MnemoAI</sub> | **Japanese vocabulary, remembered through Thai sound-alikes.** An LLM builds a memory sentence around the collision. Anonymous devices get **HMAC-signed tokens** rather than raw user IDs — added to close an IDOR the first design allowed. `FastAPI` `Postgres` `Redis` |
 | **Governed Text-to-SQL Data App**<br/><sub>CattoGadget</sub> | **Thai questions, governed SQL answers.** Sentiment and classification run as functions *inside* the query rather than as a separate model service, and writes go to Postgres over a service-principal OAuth token — no password in the code. `Databricks Apps` `Unity Catalog` `Lakebase` |
