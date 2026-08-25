@@ -99,13 +99,13 @@ day-by-day itinerary with weather, maps, cost breakdown and export. **39 test su
 <tr>
 <td width="50%" valign="top">
 
-### 📖 [CattoEPUB](https://cattodata.com/cattoepub) · Live
-<img src="assets/cattoepub.jpg" width="100%"/>
+### 🎁 [CattoLotto](https://cattodata.com/cattolotto) · Live
+<img src="assets/cattolotto.jpg" width="100%"/>
 
-**Thai OCR → EPUB Converter.** Browser PWA turning complex Thai PDFs into clean EPUBs with
-Typhoon OCR — token-saving OCR, glossary, resume/recovery. Fully client-side, nothing leaves the device.
+**Prize Draw & Lottery Tool.** Fast number checking and prize-draw utilities. No account, no data
+collection, entirely in the browser.
 
-`Typhoon OCR` `PDF.js` `PWA` `Client-side`
+`HTML` `JS` `Client-side`
 
 </td>
 <td width="50%" valign="top">
@@ -123,13 +123,14 @@ formatting, exporting ready-to-read EPUBs. Built for long-document context, not 
 <tr>
 <td width="50%" valign="top">
 
-### 🎁 [CattoLotto](https://cattodata.com/cattolotto) · Live
-<img src="assets/cattolotto.jpg" width="100%"/>
+### 📖 [CattoEPUB](https://cattodata.com/cattoepub)
+<img src="assets/cattoepub.jpg" width="100%"/>
 
-**Prize Draw & Lottery Tool.** Fast number checking and prize-draw utilities. No account, no data
-collection, entirely in the browser.
+**Thai OCR → EPUB Converter.** Browser PWA turning complex Thai PDFs into clean EPUBs with
+Typhoon OCR — token-saving OCR strategy, glossary, resume/recovery for long documents, human
+review before export. Fully client-side, nothing leaves the device.
 
-`HTML` `JS` `Client-side`
+`Typhoon OCR` `PDF.js` `PWA` `Client-side`
 
 </td>
 <td width="50%" valign="top">
