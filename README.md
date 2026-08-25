@@ -123,14 +123,13 @@ formatting, exporting ready-to-read EPUBs. Built for long-document context, not 
 <tr>
 <td width="50%" valign="top">
 
-### 📖 [CattoEPUB](https://cattodata.com/cattoepub)
-<img src="assets/cattoepub.jpg" width="100%"/>
+### 🍜 [CattoWhatEat](https://cattodata.com/cattolotto/cattowhateat/) · Live
 
-**Thai OCR → EPUB Converter.** Browser PWA turning complex Thai PDFs into clean EPUBs with
-Typhoon OCR — token-saving OCR strategy, glossary, resume/recovery for long documents, human
-review before export. Fully client-side, nothing leaves the device.
+**What To Eat.** Solves the daily "what should I eat" deadlock — pick a cuisine, hit the slot
+machine, get a suggestion. Single-file vanilla HTML/CSS/JS with three switchable themes and no
+build step. A sibling of CattoLotto.
 
-`Typhoon OCR` `PDF.js` `PWA` `Client-side`
+`Vanilla JS` `Zero dependencies` `Single file`
 
 </td>
 <td width="50%" valign="top">
