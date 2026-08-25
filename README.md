@@ -122,17 +122,6 @@ spending charts, month-over-month comparison and AI coaching. Financial data nev
 <tr>
 <td width="50%" valign="top">
 
-### ✍️ [CattoDraftWriter](https://cattodata.com) · Live
-<img src="assets/cattowriter.jpg" width="100%"/>
-
-**AI Writing & Style Intelligence Engine.** Style-DNA assistant that captures an author's voice
-from samples, applies Thai writing rules, merges drafts intelligently, and round-trips Word/PDF.
-
-`Next.js` `Tiptap` `Supabase` `LLM`
-
-</td>
-<td width="50%" valign="top">
-
 ### 🎁 [CattoLotto](https://cattodata.com/cattolotto) · Live
 <img src="assets/cattolotto.jpg" width="100%"/>
 
@@ -141,6 +130,8 @@ collection, entirely in the browser.
 
 `HTML` `JS` `Client-side`
 
+</td>
+<td width="50%" valign="top">
 </td>
 </tr>
 </table>
@@ -154,7 +145,7 @@ collection, entirely in the browser.
 | **MnemoAI** | Layered FastAPI service — phonetic engine, Claude Haiku with OpenAI fallback, image generation, spaced repetition. **HMAC-signed device tokens** added to close an IDOR. Postgres · Redis · Docker |
 | **CattoGadget** | Databricks App — Thai natural language → SQL via Genie, LLM classification *inside* SQL, writes to Lakebase. No passwords in code: service-principal OAuth, Unity Catalog permissions |
 | **CattoCreator** | Paste news → rendered vertical MP4: script generation, cloned-voice TTS, programmatic render. Monorepo on Azure |
-| **CattoBook** | Manuscript → epubcheck-validated EPUB + print-ready A5 PDF. Commercially published titles ship through it |
+| **CattoBook** | Document pipeline: Markdown/Word → epubcheck-validated EPUB + print-ready A5 PDF under a reusable theme, in one command |
 | **CattoAstro** | LLM behavioural-profile app. Production on **Azure Container Apps** (Singapore), Redis rate limiting |
 | **CattoFlip** | iOS + Android — Capacitor · React · Supabase · RevenueCat subscriptions. 154 commits, 31 test suites, 4 CI workflows |
 | **CattoDiscord** | Thai conversation summarisation bot. Vercel Chat SDK · AI SDK |
