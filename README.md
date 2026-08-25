@@ -24,7 +24,7 @@ and engineering the systems myself.
 > Willoughby City Council × GEEQ
 
 <a href="https://github.com/cattodata/catwalk">
-  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/09-three-roles.png" width="100%" alt="CatWalk — one app, three roles"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/00-intro.png" width="100%" alt="CatWalk — get your food while getting fit"/>
 </a>
 
 One app, three roles on the same data: residents earn rewards for GPS-verified walks, shop
