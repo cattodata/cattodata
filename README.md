@@ -133,6 +133,16 @@ build step. A sibling of CattoLotto.
 
 </td>
 <td width="50%" valign="top">
+
+### 📖 [CattoEPUB](https://cattodata.com/cattoepub) · Live
+<img src="assets/cattoepub.jpg" width="100%"/>
+
+**Thai PDF → EPUB Converter.** Turns complex Thai PDFs — including scans — into clean, readable
+EPUBs. Token-saving OCR strategy, glossary, resume/recovery for long documents, and human review
+before export. Fully client-side, nothing leaves the device.
+
+`OCR` `PDF.js` `PWA` `Client-side`
+
 </td>
 </tr>
 </table>
