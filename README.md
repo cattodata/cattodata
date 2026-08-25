@@ -68,9 +68,9 @@ Independent AI products I design, build and ship — live on **[cattodata.com](h
 <sub>**[CattoExpense](https://cattodata.com/cattoexpense)** · cattodata.com · Live</sub>
 <img src="assets/cattoexpense.jpg" width="100%"/>
 
-Upload an **Australian bank statement** (PDF/CSV) and get
-categorisation, spending charts, month-over-month comparison and AI coaching. In-browser OCR —
-financial data never leaves the device.
+Bank statements are the most sensitive file most people own, so nothing is uploaded — PDF parsing,
+OCR and every calculation happen inside the browser tab. Handles Australian bank formats and
+exports back to Excel and PDF.
 
 `Client-side` `OCR` `Charts` `AI coaching`
 
@@ -81,9 +81,9 @@ financial data never leaves the device.
 <sub>**[CattoGo](https://cattodata.com/cattogo)** · cattodata.com · Live</sub>
 <img src="assets/cattogo.jpg" width="100%"/>
 
-16-country comparison, salary/tax/cost-of-living
-modelling, points-based visa scoring and an **Australia life simulator**. Every figure sourced
-from ATO, ABS, OECD and official visa pages.
+Relocation questions are really one modelling problem — salary minus tax minus rent, per country.
+Models 16 countries against published ATO, ABS, OECD and Numbeo figures, with a source behind
+every number so the answer can be checked.
 
 `Next.js` `Maps` `Modelling`
 
@@ -96,8 +96,8 @@ from ATO, ABS, OECD and official visa pages.
 <sub>**[CattoLearn](https://cattodata.com)** · cattodata.com · Live</sub>
 <img src="assets/cattolearn.jpg" width="100%"/>
 
-Full-stack self-paced platform — courses, lessons, quizzes,
-progress tracking, certificates, blog, community and content infrastructure.
+A platform rather than a course list: enrolment, progress, quizzes, issued certificates, editorial
+tooling and community on one Postgres schema. The largest codebase here, at 182 commits.
 
 `Next.js` `Prisma` `Supabase` `NextAuth` `Tiptap` `OpenAI` `Cloudflare Workers` `Playwright`
 
@@ -108,8 +108,9 @@ progress tracking, certificates, blog, community and content infrastructure.
 <sub>**[CattoTravel](https://cattodata.com/cattotravel)** · cattodata.com · Live</sub>
 <img src="assets/cattotravel.jpg" width="100%"/>
 
-Paste a trip in any format (text, PDF, Excel, Word) → AI builds a
-day-by-day itinerary with weather, maps, cost breakdown and export. **39 test suites.**
+Takes a trip plan in whatever shape it arrives — text, PDF, Excel, Word — and resolves it into
+dated time slots with weather, maps and costs. The most heavily tested project here, at
+**39 test suites**.
 
 `LLM` `Itinerary` `Maps` `Export`
 
@@ -122,8 +123,8 @@ day-by-day itinerary with weather, maps, cost breakdown and export. **39 test su
 <sub>**[CattoLotto](https://cattodata.com/cattolotto)** · cattodata.com · Live</sub>
 <img src="assets/cattolotto.jpg" width="100%"/>
 
-Fast number checking and prize-draw utilities. No account, no data
-collection, entirely in the browser.
+Draws winners from a pasted or uploaded list — multiple prizes, no repeat winners, nothing stored.
+Runs entirely in the page, with no account.
 
 `HTML` `JS` `Client-side`
 
@@ -134,8 +135,8 @@ collection, entirely in the browser.
 <sub>**[CattoTranslate](https://cattodata.com/cattotranslate)** · cattodata.com · Live</sub>
 <img src="assets/cattotranslate.jpg" width="100%"/>
 
-Translates entire PDF/EPUB books while preserving layout and
-formatting, exporting ready-to-read EPUBs. Built for long-document context, not chunk-by-chunk.
+Translating a book chunk by chunk loses the thread. This keeps document context across chapters
+and rebuilds the EPUB with its formatting intact, rather than emitting loose translated text.
 
 `LLM translation` `EPUB` `EN↔TH`
 
@@ -148,9 +149,8 @@ formatting, exporting ready-to-read EPUBs. Built for long-document context, not 
 <sub>**[CattoWhatEat](https://cattodata.com/cattolotto/cattowhateat/)** · cattodata.com · Live</sub>
 <img src="assets/cattowhateat.jpg" width="100%"/>
 
-Solves the daily "what should I eat" deadlock — pick a cuisine, hit the slot
-machine, get a suggestion. Single-file vanilla HTML/CSS/JS with three switchable themes and no
-build step. A sibling of CattoLotto.
+One HTML file, no build step and no dependencies, that settles the daily "what should I eat"
+argument. Three switchable themes; a sibling of CattoLotto.
 
 `Vanilla JS` `Zero dependencies` `Single file`
 
@@ -161,9 +161,9 @@ build step. A sibling of CattoLotto.
 <sub>**[CattoEPUB](https://cattodata.com/cattoepub)** · cattodata.com · Live</sub>
 <img src="assets/cattoepub.jpg" width="100%"/>
 
-Turns complex Thai PDFs — including scans — into clean, readable
-EPUBs. Token-saving OCR strategy, glossary, resume/recovery for long documents, and human review
-before export. Fully client-side, nothing leaves the device.
+Scanned Thai PDFs are the worst case for OCR and the most expensive to re-run, so pages are
+batched to cut token cost, repeated terms are held in a glossary, and a half-finished document can
+resume. Everything runs in the browser, and the reader edits the text before export.
 
 `OCR` `PDF.js` `PWA` `Client-side`
 
@@ -175,15 +175,15 @@ before export. Fully client-side, nothing leaves the device.
 
 | Project | What it is |
 |---|---|
-| **Agentic Analytics & Multi-Agent Workspace** | Multi-agent analytics on Databricks Apps — FastAPI · Lakebase/Postgres · OAuth on-behalf-of · Genie text-to-SQL · conversation memory · tool-call transparency · governed admin |
-| **Language-Learning Backend**<br/><sub>English Buddy</sub> | FastAPI language-learning backend — STT, forced alignment, prosody + pronunciation scoring, TTS. ~11.5k lines, **14 test suites** incl. an LLM output-quality eval gate and a path-traversal security test |
-| **Cross-Lingual Mnemonic Engine**<br/><sub>MnemoAI</sub> | Layered FastAPI service — phonetic engine, Claude Haiku with OpenAI fallback, image generation, spaced repetition. **HMAC-signed device tokens** added to close an IDOR. Postgres · Redis · Docker |
-| **Governed Text-to-SQL Data App**<br/><sub>CattoGadget</sub> | Databricks App — Thai natural language → SQL via Genie, LLM classification *inside* SQL, writes to Lakebase. No passwords in code: service-principal OAuth, Unity Catalog permissions |
-| **AI Video Production Pipeline**<br/><sub>CattoCreator</sub> | Paste news → rendered vertical MP4: script generation, cloned-voice TTS, programmatic render. Monorepo on Azure |
-| **Document Publishing Pipeline**<br/><sub>CattoBook</sub> | Document pipeline: Markdown/Word → epubcheck-validated EPUB + print-ready A5 PDF under a reusable theme, in one command |
-| **Personality Synthesis App**<br/><sub>CattoAstro</sub> | LLM behavioural-profile app. Production on **Azure Container Apps** (Singapore), Redis rate limiting |
-| **Cross-Platform Mobile App**<br/><sub>CattoFlip</sub> | iOS + Android — Capacitor · React · Supabase · RevenueCat subscriptions. 154 commits, 31 test suites, 4 CI workflows |
-| **Conversation Summarisation Bot**<br/><sub>CattoDiscord</sub> | Thai conversation summarisation bot. Vercel Chat SDK · AI SDK |
+| **Agentic Analytics & Multi-Agent Workspace** | **Ask data questions in plain language, get auditable answers.** The agent shows which tools it called, and every query runs under the asking user's own identity rather than a shared service account. `FastAPI` `Databricks Apps` `Lakebase` `OAuth OBO` `Genie` |
+| **Language-Learning Backend**<br/><sub>English Buddy</sub> | **Scores how well you pronounced it.** Speech is force-aligned to a reference, then prosody and phonemes scored separately. **14 test suites**, including an LLM output-quality gate and one proving audio paths cannot escape their directory. `FastAPI` `STT/TTS` |
+| **Cross-Lingual Mnemonic Engine**<br/><sub>MnemoAI</sub> | **Japanese vocabulary, remembered through Thai sound-alikes.** An LLM builds a memory sentence around the collision. Anonymous devices get **HMAC-signed tokens** rather than raw user IDs — added to close an IDOR the first design allowed. `FastAPI` `Postgres` `Redis` |
+| **Governed Text-to-SQL Data App**<br/><sub>CattoGadget</sub> | **Thai questions, governed SQL answers.** Sentiment and classification run as functions *inside* the query rather than as a separate model service, and writes go to Postgres over a service-principal OAuth token — no password in the code. `Databricks Apps` `Unity Catalog` `Lakebase` |
+| **AI Video Production Pipeline**<br/><sub>CattoCreator</sub> | **Article in, finished vertical video out.** Script, voiceover and a programmatic render, with two deployables sharing one Azure backend so the expensive stage runs once. `Monorepo` `TTS` `Azure` |
+| **Document Publishing Pipeline**<br/><sub>CattoBook</sub> | **Manuscript to shelf-ready EPUB and print PDF, in one command.** epubcheck-clean output, and the typesetting theme is defined once and reused so layout work does not repeat per document. `Node` `epubcheck` |
+| **Personality Synthesis App**<br/><sub>CattoAstro</sub> | **Four belief systems reconciled into one profile.** The hard part is making the model commit to a single coherent reading instead of hedging across all four. Rate-limited at the edge, on Azure Container Apps. `Next.js` `Redis` |
+| **Cross-Platform Mobile App**<br/><sub>CattoFlip</sub> | **One React codebase, both app stores, paid subscriptions.** A CI step greps the built bundle for secrets before release, so a leaked key fails the build rather than the review. **31 test suites, 4 CI workflows.** `Capacitor` `Supabase` `RevenueCat` |
+| **Conversation Summarisation Bot**<br/><sub>CattoDiscord</sub> | **Catch up on a long Thai thread in one read.** Local-first, so it runs against a dev workspace before it ever touches a live server. `Vercel Chat SDK` `AI SDK` |
 
 > Most of these are live services with real users, so their repositories stay private.
 > **[CatWalk](https://github.com/cattodata/catwalk) is fully open** — architecture, eight technical
