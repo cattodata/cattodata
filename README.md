@@ -2,15 +2,16 @@
 
 <img src="https://cattodata.com/cattodata.png" width="100" alt="cattodata"/>
 
-# Data & AI Engineer · Sydney 🇦🇺
+# Azure Data & AI Engineer · ex-Microsoft
 
 ### Production LLM applications · agentic workflows · RAG · enterprise data platforms
 
-I build AI products end to end — architecture through deployment — and I've spent the last decade
-doing it from both sides of the table: advising enterprise customers at Microsoft, and engineering
-the systems myself.
+Enterprise Data & AI from both sides — advising customers at Microsoft, and engineering the
+systems myself: production RAG, multi-agent systems, and lakehouse platforms.
 
-**10+ years in tech** · **10× Azure certified** · **Microsoft Certified Trainer** · **🏆 1st place, AI hackathon 2026** · **8 live products**
+**Sydney, Australia (Australian PR)** · **MCT** · **AZ-305 Expert** · **10× Azure certified** · **10+ years in tech**
+
+**🏆 1st place — Chatswood AI Hackathon 2026** · **🏅 Microsoft Global Hackathon winner 2023** · **8 live products**
 
 [![Website](https://img.shields.io/badge/cattodata.com-84c0fc?style=for-the-badge&logo=googlechrome&logoColor=white)](https://cattodata.com)
 [![Case studies](https://img.shields.io/badge/Case_studies-2e6bb3?style=for-the-badge&logo=readme&logoColor=white)](https://github.com/cattodata/portfolio)
@@ -33,11 +34,24 @@ One app, three roles on the same data. Residents earn rewards for **GPS-geofence
 owners get **AI marketing campaigns in EN / 中文 / 한국어** generated from live weather, local events
 and ABS census demographics · Council gets an **aggregate-only** movement and CO₂ dashboard.
 
-`React 19` `TypeScript` `Supabase + RLS` `Leaflet / OpenStreetMap` `Claude` `Azure App Service` `Playwright`
+<div align="center">
 
-**[📖 Full case study — architecture, decisions, trade-offs](https://github.com/cattodata/catwalk)** ·
-**[▶ Live app](https://cattocompressv2.azurewebsites.net)** ·
-**[🎬 Demo video](https://www.facebook.com/reel/1636653097607330)**
+[![Try the live app](https://img.shields.io/badge/▶_Try_the_live_app-e8517d?style=for-the-badge)](https://cattocompressv2.azurewebsites.net)
+[![Read the case study](https://img.shields.io/badge/📖_Read_the_case_study-2e6bb3?style=for-the-badge)](https://github.com/cattodata/catwalk)
+[![Watch the demo](https://img.shields.io/badge/🎬_Watch_the_demo-1f7a5c?style=for-the-badge)](https://www.facebook.com/reel/1636653097607330)
+
+<img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/catwalk-demo.gif" width="720" alt="CatWalk live demo — pick a shop, choose a travel mode, start the walk"/>
+
+</div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/01-onboarding.png" width="22%" alt="Onboarding"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/02-walker.png" width="22%" alt="Walker"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/03-owner-ai-campaign.png" width="22%" alt="Owner AI campaign"/>
+  <img src="https://raw.githubusercontent.com/cattodata/catwalk/main/docs/screenshots/04-council-mobile.png" width="22%" alt="Council view"/>
+</p>
+
+`React 19` `TypeScript` `Supabase + RLS` `Leaflet / OpenStreetMap` `Claude` `Azure App Service` `Playwright`
 
 ---
 
