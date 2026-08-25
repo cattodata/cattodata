@@ -14,6 +14,7 @@ the systems myself.
 
 [![Website](https://img.shields.io/badge/cattodata.com-84c0fc?style=for-the-badge&logo=googlechrome&logoColor=white)](https://cattodata.com)
 [![Case studies](https://img.shields.io/badge/Case_studies-2e6bb3?style=for-the-badge&logo=readme&logoColor=white)](https://github.com/cattodata/portfolio)
+[![Blog](https://img.shields.io/badge/Blog-1f7a5c?style=for-the-badge&logo=hashnode&logoColor=white)](https://cattodata.com/blog)
 
 </div>
 
@@ -228,8 +229,10 @@ Snowflake Hands-on Essentials
 
 # ✍️ Writing
 
-17 technical articles on generative AI, RAG, transformers and cloud data engineering, including
-work as an invited guest author on **DataTH**, Thailand's largest data community.
+I write about the systems I build at **[cattodata.com/blog](https://cattodata.com/blog)** — RAG and
+its advanced retrieval techniques, Azure OpenAI integration, the X recommendation algorithm, LLM
+tooling, and getting started on Azure. 17 technical articles in total, including work as an invited
+guest author on **DataTH**, Thailand's largest data community.
 
 Lived and worked across 🇹🇭 Thailand · 🇯🇵 Japan · 🇮🇪 Ireland · 🇺🇸 United States · 🇦🇺 Australia
 Languages: English · Thai · Japanese
@@ -242,6 +245,6 @@ Languages: English · Thai · Japanese
 **Sydney-based, Australian PR — no sponsorship required.**
 Open to Data, AI and Generative AI engineering roles.
 
-[cattodata.com](https://cattodata.com) · [Case studies](https://github.com/cattodata/portfolio)
+[cattodata.com](https://cattodata.com) · [Blog](https://cattodata.com/blog) · [Case studies](https://github.com/cattodata/portfolio)
 
 </div>
