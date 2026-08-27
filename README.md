@@ -9,7 +9,7 @@
 Enterprise Data & AI experience spanning customer-facing solution architecture at Microsoft and
 hands-on delivery of production RAG, multi-agent systems, and enterprise data platforms.
 
-**Sydney, Australia (Australian PR)** · **MCT** · **Azure Solutions Architect Expert** · **10× Azure certified** · **10+ years in tech**
+**Sydney, Australia** · **Microsoft Certified Trainer** · **Azure Solutions Architect Expert** · **10× Azure certified** · **10+ years in tech**
 
 **🏆 1st place — Chatswood AI Hackathon 2026** · **🏅 Microsoft Global Hackathon winner 2023**
 
