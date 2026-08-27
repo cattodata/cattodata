@@ -340,7 +340,6 @@ Languages: English · Thai · Japanese
 <div align="center">
 
 ### Let's talk.
-**Sydney-based, Australian PR — no sponsorship required.**
 Open to Data, AI and Generative AI engineering roles.
 
 [cattodata.com](https://cattodata.com) · [Blog](https://cattodata.com/blog) · [Case studies](https://github.com/cattodata/portfolio)
